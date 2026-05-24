@@ -1,0 +1,49 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# Node
+node_modules/
+
+# Large files (use Google Drive instead)
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+*.bin
+*.onnx
+
+# Generated images (use Google Drive instead)
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.gif
+!reference/*.png
+!reference/*.jpg
+
+# Videos (use Google Drive instead)
+*.mp4
+*.mov
+*.avi
+*.webm
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp

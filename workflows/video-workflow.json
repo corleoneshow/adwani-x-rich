@@ -1,0 +1,8 @@
+{
+  "_comment": "Placeholder ComfyUI workflow - replace with your actual workflow",
+  "workflow_name": "Video Generation",
+  "version": "1.0",
+  "description": "Video/animation workflow for character content",
+  "nodes": [],
+  "instructions": "Export your actual workflow from ComfyUI and replace this file"
+}

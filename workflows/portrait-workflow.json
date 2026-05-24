@@ -1,0 +1,8 @@
+{
+  "_comment": "Placeholder ComfyUI workflow - replace with your actual workflow",
+  "workflow_name": "Portrait Generation",
+  "version": "1.0",
+  "description": "Basic portrait workflow for character generation",
+  "nodes": [],
+  "instructions": "Export your actual workflow from ComfyUI and replace this file"
+}

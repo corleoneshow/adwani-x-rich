@@ -42,7 +42,7 @@ AI Influencer/
 └── Reference/           # Inspiration, style refs
 ```
 
-**Drive Link:** [Add your shared Drive link here]
+**Drive Link:** https://drive.google.com/drive/folders/1fl7aoTQ5EK_FowpB90CoPVGT3XOA1Yki
 
 ## Quick Start
 

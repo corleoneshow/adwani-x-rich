@@ -1,7 +1,9 @@
 # AI Influencer Project — Claude Instructions
 
 ## FIRST THING EVERY SESSION
-Run `git log --oneline --since="7 days ago" --pretty=format:"%h %an: %s (%ar)"` and give a brief 2-3 sentence summary of what the other collaborator has pushed since the last session. Address it to whoever is currently working (Richie or Jon — check `git config user.name` to find out). Keep it casual and tight — just what changed and why it matters.
+1. Run `git config user.name` to find out who is currently working
+2. Run `git log --all --pretty=format:"%h %an: %s (%ar)" -30` to get recent history
+3. Find the last commits made by the OTHER collaborator (not the current user) and give a brief 2-3 sentence summary of what they did and when. Even if it was weeks or months ago, always show the last thing they worked on. Keep it casual — just what changed and why it matters.
 
 ## What This Is
 A collaborative project between Richie (richardisho) and Jon (corleoneshow) to build and run an AI-generated influencer across Instagram, TikTok, Twitter, and OnlyFans. Image/video generation is done via ComfyUI with custom LoRAs.

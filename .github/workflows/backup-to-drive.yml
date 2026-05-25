@@ -1,0 +1,27 @@
+name: Backup to Google Drive
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  backup:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Zip repo
+        run: |
+          zip -r ai-influencer-backup.zip . \
+            --exclude "*.git*" \
+            --exclude "node_modules/*" \
+            --exclude ".venv/*"
+
+      - name: Upload to Google Drive
+        uses: adityak74/google-drive-upload-git-action@main
+        with:
+          credentials: ${{ secrets.GOOGLE_DRIVE_CREDENTIALS }}
+          filename: ai-influencer-backup.zip
+          folderId: 1yGmYmOJRSkVt5eOg4zwhKWOrpmrlo-97
+          overwrite: true
